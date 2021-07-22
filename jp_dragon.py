@@ -32,3 +32,4 @@ if __name__ == '__main__':
     fractal.draw(t, curve, length, left_angle=90, right_angle=90)
 
     turtle.mainloop()
+

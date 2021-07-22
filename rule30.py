@@ -40,9 +40,9 @@ def evolve(automaton, num_steps):
         yield state[1:-1]
 
 
-
 if __name__ == '__main__':
     automaton = build_automaton(100)
     print_automaton(automaton)
     for state in evolve(automaton, 50):
         print_automaton(state)
+

@@ -32,3 +32,4 @@ if __name__ == '__main__':
     fractal.draw(t, weed, length, 25, 25)
 
     turtle.mainloop()
+

@@ -24,7 +24,9 @@ def draw_automaton(automaton):
             if automaton[i][j] == 1:
                 x = GRID_SIZE * j
                 y = GRID_SIZE * i
-                canvas.create_rectangle(x, y, x + GRID_SIZE, y + GRID_SIZE, fill='black')
+                canvas.create_rectangle(
+                    x, y, x + GRID_SIZE, y + GRID_SIZE, fill='black'
+                )
     
     canvas.update()
 
@@ -66,3 +68,4 @@ if __name__ == '__main__':
         draw_automaton(automaton)
 
     root.mainloop()
+

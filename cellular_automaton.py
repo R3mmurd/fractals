@@ -45,3 +45,4 @@ if __name__ == '__main__':
     print_automaton(automaton)
     for state in evolve(automaton, 32):
         print_automaton(state)
+

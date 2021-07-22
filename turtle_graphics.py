@@ -11,3 +11,4 @@ if __name__ == '__main__':
         turtle.color((1, i/10, 0))
         turtle.circle(100)
         turtle.right(360/10)
+

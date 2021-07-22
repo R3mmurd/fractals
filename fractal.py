@@ -56,3 +56,4 @@ def draw(turtle, curve, length, left_angle, right_angle):
     turtle_state = []
     for c in curve:
         translate(c, length, left_angle, right_angle, turtle, turtle_state)
+

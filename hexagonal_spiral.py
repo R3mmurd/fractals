@@ -12,3 +12,4 @@ if __name__ == '__main__':
         turtle.pencolor(colors[x%5])
         turtle.forward(x)
         turtle.left(58)
+

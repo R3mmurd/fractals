@@ -68,5 +68,4 @@ if __name__ == '__main__':
     fractal.draw(turtle, arrowhead, length, 60, 60)
 
     t.mainloop()
-    
 

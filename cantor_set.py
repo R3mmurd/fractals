@@ -27,3 +27,4 @@ if __name__ == '__main__':
     win.pack()
     cantor_set(10, 10, w-20, win)
     root.mainloop()
+
